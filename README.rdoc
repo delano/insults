@@ -25,9 +25,9 @@ A module that insults you when it feels you deserve it.
 
 == More Info
 
-	* RubyForge[http://rubyforge.org/projects/insults]
-	* GitHub[http://github.com/delano/insults]
-	* Inspiration[http://www.youtube.com/watch?v=GU2w72KAkQQ]
+* RubyForge[http://rubyforge.org/projects/insults]
+* GitHub[http://github.com/delano/insults]
+* Inspiration[http://www.youtube.com/watch?v=GU2w72KAkQQ]
 
 == Credits
 

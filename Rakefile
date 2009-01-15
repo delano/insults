@@ -11,7 +11,7 @@ task :default => [ :rdoc, :package ]
 
 spec = Gem::Specification.new do |s|
 	s.name = "insults"
-	s.version = "0.1"
+	s.version = "0.2"
 	s.summary = "Insults will insult you when it feels you deserve it."
 	s.description = "Insults will insult you when it feels you deserve it."
 	s.author = "Delano Mandelbaum"

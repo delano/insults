@@ -10,6 +10,12 @@ A module that insults you when it feels you deserve it.
 
     require 'insults'
 
+== More Info
+
+* http://rubyforge.org/projects/insults/
+* http://github.com/delano/insults
+* http://www.youtube.com/watch?v=GU2w72KAkQQ
+
 == Changes
 
 * v0.2 (2009-01-15)
@@ -23,7 +29,8 @@ A module that insults you when it feels you deserve it.
 == Credits
 
 * Delano Mandelbaum
-* Alex Trebek (no, not <em>the</em> Alex Trebek)
+* Alex Trebek 
+* Creston Farms
 
 == License
 

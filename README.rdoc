@@ -10,13 +10,10 @@ A module that insults you when it feels you deserve it.
 
     require 'insults'
 
-== More Info
-
-* http://rubyforge.org/projects/insults/
-* http://github.com/delano/insults
-* http://www.youtube.com/watch?v=GU2w72KAkQQ
-
 == Changes
+
+* v0.3 (2009-01-XX)
+  * Insults are now Ruby 1.9 compatible.
 
 * v0.2 (2009-01-15)
   * Added insults.
@@ -24,7 +21,13 @@ A module that insults you when it feels you deserve it.
   * Now 12% funnier.
 
 * v0.1 (2009-01-14)
-  * Initial, insulting release
+  * Initial, insulting release.
+
+== More Info
+
+	* RubyForge[http://rubyforge.org/projects/insults]
+	* GitHub[http://github.com/delano/insults]
+	* Inspiration[http://www.youtube.com/watch?v=GU2w72KAkQQ]
 
 == Credits
 

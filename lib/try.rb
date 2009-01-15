@@ -1,3 +1,4 @@
+# encoding: utf-8
 class A < Module #:nodoc:
 end
 class B < A #:nodoc:

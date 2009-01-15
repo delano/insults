@@ -1,3 +1,4 @@
+# encoding: utf-8
 # Copyright (c) 2009 Delano Mandelbaum
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -18,7 +19,9 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
-$KCODE = "u"
+$KCODE = "u" if RUBY_VERSION =~ /^1.8/
+
+
 require 'yaml'
 
 # There are no methods or constants. All you have to do is require insults and 

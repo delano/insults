@@ -3,13 +3,11 @@
 INSULTS_HOME = File.expand_path(File.join(File.dirname(__FILE__), '..'))
 $:.unshift(File.join(INSULTS_HOME, 'lib')) # Make sure our local lib is first in line
 
-
-
 require 'rubygems'
 require 'insults'
 require 'try'
 include Insults
 
-poop
-Poop
-
+nothing
+Nothing
+Try.nothing

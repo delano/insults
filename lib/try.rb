@@ -1,19 +1,19 @@
 
 
-class A < Module
+class A < Module #:nodoc:
 end
 
-class B < A
+class B < A #:nodoc:
 end
   
-module New
+module New #:nodoc:
 end
 
-class C 
+class C #:nodoc:
  include Insults
 end
   
-class Try < C
+class Try < C #:nodoc:
   def self.nothing
     ➔ "YES!"
   end

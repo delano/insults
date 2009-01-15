@@ -9,3 +9,22 @@ A module that insults you when it feels you deserve it.
 == Usage
 
     require 'insults'
+
+== Changes
+
+* v0.2 (2009-01-15)
+  * Added insults.
+  * Reduced code readability.
+  * Now 12% funnier.
+
+* v0.1 (2009-01-14)
+  * Initial, insulting release
+
+== Credits
+
+* Delano Mandelbaum
+* Alex Trebek (no, not <em>the</em> Alex Trebek)
+
+== License
+
+See: LICENSE.txt

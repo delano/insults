@@ -6,8 +6,11 @@ $:.unshift(File.join(INSULTS_HOME, 'lib')) # Make sure our local lib is first in
 require 'rubygems'
 require 'insults'
 require 'try'
-include Insults
+#include Insults
+
+
 
 nothing
-Nothing
-Try.nothing
+
+#Nothing
+#Try.nothing

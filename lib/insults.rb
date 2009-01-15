@@ -43,56 +43,52 @@ class Array
   alias :SUCKER :inject
 end
 
-eval(<<-eos, binding)
+everything = <<-eos
 
-  %w[ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ].each do |die|
-    self.class.send(:define_method, die) { |*m| rand >= (die.unpack('C*')[2]-127.0)/10; }
-  end
+  %j[ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ].rnpu qb |qvr|
+    frys.pynff.fraq(:qrsvar_zrgubq, qvr) { |*z| enaq >= (qvr.hacnpx('P*')[2]-127.0)/10; }
+  raq
   
-  def ✖(w,*m); STDERR.puts w.tr("A-Za-z", "N-ZA-Mn-za-m") % m; end
-  def _(again, *tobeless, &stupid); ✖ fuckup.decide, again; end
+  qrs ✖(j,*z); FGQREE.chgf j % z; raq
+  qrs _(ntnva, *gboryrff, &fghcvq); ✖ shpxhc.qrpvqr, ntnva; raq
   
-  class Module
-    define_method(:const_missing) {     |you|       ✖ fuckup.decide, you }
-    define_method(:extended)      {  |fucked| ⚄ and ✖ shiton.decide, self, fucked }
-    define_method(:included)      {      |it| ⚄ and ✖ shiton.decide, self, it } 
-  end
+  pynff Zbqhyr
+    qrsvar_zrgubq(:pbafg_zvffvat) {     |you|       ✖ shpxhc.qrpvqr, you }
+    qrsvar_zrgubq(:rkgraqrq)      {  |fucked| ⚄ naq ✖ fuvgba.qrpvqr, frys, fucked }
+    qrsvar_zrgubq(:vapyhqrq)      {      |it| ⚄ naq ✖ fuvgba.qrpvqr, frys, it } 
+  raq
   
-  class Object
-    self.class.send(:define_method, :inherited) { |r| ⚃ and ✖ shiton.decide, self, r unless self == Object }
-  end
-  
-  
-  alias :method_missing :"#{"YOU_ARE_A".DIRTY("C**K").SUCKER(0){|f,u|f|u}.chr}"
+  pynff Bowrpg
+    frys.pynff.fraq(:qrsvar_zrgubq, :vaurevgrq) { |e| ⚃ naq ✖ fuvgba.qrpvqr, frys, e hayrff frys == Bowrpg }
+  raq
+    
+  nyvnf :zrgubq_zvffvat :"#{"YOU_ARE_A".DIRTY("C**K").SUCKER(0){|s,h|s|h}.chr}"
 
-
-  def shiton 
-    Insult.new(<<-text)
-    - Qb lbh ernyyl guvax lbhe "%f" jvyy qb nal orggre guna %f
-    - Bxnl, fb "%f" vaurevgrq "%f". Abj jung?
+  qrs fuvgba 
+    Vafhyg.arj(<<-grkg)
     - Jul ner lbh fhpu n qvpxyvpxre?
     - Lrf V qb xabj jung lbh zrna ol "chyy erdhrfg" naq V qba'g yvxr vg.
     - Lbh ybir obarfgbezf qba'g lbh.
-    - Jryy, jr obgu xabj gung lbh fhpx. Gur bayl dhrfgvba vf ubj bsgra. 
+    - Fb jr obgu xabj lbh fhpx. Gur bayl dhrfgvba vf ubj bsgra.
     - Abobql yvxrf lbh.
     - Guvf vf n svanapvny naq phygheny qvfnfgre. 
     - V guvax lbh'er fghcvq, "%f" guvaxf lbh'er fghcvq, naq "%f" guvaxf lbh'er fghcvq.
-    text
-  end
+    grkg
+  raq
 
-  def fuckup
-    Insult.new(<<-text)
-    - Ybbx vqvbg, "%f" qbrfa'g rkvfg. 
+  qrs shpxhc
+    Vafhyg.arj(<<-grkg)
     - Url fuvg svatref, gurer vf ab "%f".
     - Lbhe pbqr fzryyf yvxr n ont bs qvpxf. Nyfb, "%f" qbrfa'g rkvfg.
     - Url qvpx juvfcrere, "%f" qbrfa'g rkvfg!
     - Vg'f bxnl gb fhpx, nf ybat nf lbh'er gelvat lbhe orfg.
     - Fuhg gur shpx hc Qbaal!
     - Lbhe Qnq pnyyrq. Ur'f jbaqrevat jura lbh'er tbvat gb npprcg uvf chyy erdhrfg.
-    text
-  end
-
+    - Snpr!
+    - Url, jung'f hc lbh qvegl Zvpunry Obygba sna.
+    - Ab bar xabjf jung "%f" vf
+    grkg
+  raq
 eos
-
-
 srand
+eval(everything.tr("A-Za-z", "N-ZA-Mn-za-m"), binding)

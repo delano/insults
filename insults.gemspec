@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   # = MANIFEST =
   # find {bin,lib,tests,support,vendor} -type f | grep -v git
   s.files = %w(
-  README.textile
+  README.rdoc
   LICENSE.txt
   Rakefile
   bin/example
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   
   s.extra_rdoc_files = %w[README.textile LICENSE.txt]
   s.has_rdoc = true
-  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Insults", "--main", "README.textile"]
+  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Insults", "--main", "README.rdoc"]
   s.require_paths = %w[lib vendor]
   s.rubyforge_project = 'stella'
   s.rubygems_version = '1.1.1'

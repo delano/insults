@@ -18,7 +18,7 @@ spec = Gem::Specification.new do |s|
 	s.email = "delano@solutious.com"
 	s.homepage = "http://insults.rubyforge.org/"
 	s.rubyforge_project = "insults"
-  s.extra_rdoc_files  = ['README.textile']
+  s.extra_rdoc_files  = ['README.rdoc']
 
 	s.platform = Gem::Platform::RUBY
 	s.has_rdoc = true
@@ -44,7 +44,7 @@ t.rdoc_dir = 'doc'
 	t.options << '--line-numbers' << '--inline-source' << '-A cattr_accessor=object' 
 	t.options << '--charset' << 'utf-8' 
 	t.rdoc_files.include('LICENSE.txt')
-	t.rdoc_files.include('README.textile')
+	t.rdoc_files.include('README.rdoc')
 	t.rdoc_files.include('lib/*.rb')
 end
 

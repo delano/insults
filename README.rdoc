@@ -1,11 +1,11 @@
-h1. Insults
+= Insults
 
 A module that insults you when it feels you deserve it. 
 
-h2. Installation
+== Installation
 
     $ sudo gem install insults
 
-h2. Usage
+== Usage
 
     require 'insults'

@@ -1,0 +1,7 @@
+h1. Insults
+
+A module that insults you when it feels you deserve it. 
+
+h2. Usage
+
+    require 'insults'

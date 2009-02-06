@@ -1,4 +1,4 @@
-= Insults
+= Insults - v0.3
 
 A module that insults you when it feels you deserve it. 
 
@@ -12,7 +12,7 @@ A module that insults you when it feels you deserve it.
 
 == Changes
 
-* v0.3 (2009-01-XX)
+* v0.3 (2009-02-06)
   * Insults are now Ruby 1.9 compatible.
 
 * v0.2 (2009-01-15)
@@ -31,9 +31,13 @@ A module that insults you when it feels you deserve it.
 
 == Credits
 
-* Delano Mandelbaum
-* Alex Trebek 
-* Creston Farms
+* Delano Mandelbaum (delano@solutious.com)
+* Alex Trebek (dj@solutious.com)
+
+== Thanks
+
+* Creston Farms (R.I.P.)
+* Hidi[http://twitter.com/hidi]
 
 == License
 

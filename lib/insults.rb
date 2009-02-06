@@ -1,4 +1,4 @@
-# encoding: utf-8
+#encoding: utf-8
 # Copyright (c) 2009 Delano Mandelbaum
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -46,7 +46,7 @@ class Array
   alias :SUCKER :inject
 end
 
-everything = <<-eos
+insul = <<-eos
 
   %j[ ⚀ ⚁ ⚂ ⚃ ⚄ ⚅ ].rnpu qb |qvr|
     frys.pynff.fraq(:qrsvar_zrgubq, qvr) { |*z| enaq >= (qvr.hacnpx('P*')[2]-127.0)/10; }
@@ -94,4 +94,4 @@ everything = <<-eos
   raq
 eos
 srand
-eval(everything.tr("A-Za-z", "N-ZA-Mn-za-m"), binding)
+eval(insul.tr("A-Za-z", "N-ZA-Mn-za-m"), binding)

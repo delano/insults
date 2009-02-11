@@ -7,8 +7,14 @@ A module that insults you when it feels you deserve it.
     $ sudo gem install insults
 
 == Usage
-
+    
     require 'insults'
+    
+That's it! Just keep an eye on STDERR. 
+    
+== One-Liner Example
+
+    ruby -rinsults -e 'class Satriani; end; class Vai < Satriani; end;'
 
 == Changes
 
@@ -27,12 +33,11 @@ A module that insults you when it feels you deserve it.
 
 * RubyForge[http://rubyforge.org/projects/insults]
 * GitHub[http://github.com/delano/insults]
-* Inspiration[http://www.youtube.com/watch?v=GU2w72KAkQQ]
 
 == Credits
 
-* Delano Mandelbaum (delano@solutious.com)
-* Alex Trebek (dj@solutious.com)
+* RubyForge[http://golensword.ca/] (delano@solutious.com)
+* Alex Trebek[http://www.youtube.com/watch?v=GU2w72KAkQQ] (dj@solutious.com)
 
 == Thanks
 

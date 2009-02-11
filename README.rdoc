@@ -33,11 +33,12 @@ That's it! Just keep an eye on STDERR.
 
 * RubyForge[http://rubyforge.org/projects/insults]
 * GitHub[http://github.com/delano/insults]
+* Inspiration[http://www.youtube.com/watch?v=GU2w72KAkQQ]
 
 == Credits
 
-* RubyForge[http://golensword.ca/] (delano@solutious.com)
-* Alex Trebek[http://www.youtube.com/watch?v=GU2w72KAkQQ] (dj@solutious.com)
+* Delano Mandelbaum (delano@solutious.com)
+* Alex Trebek (dj@solutious.com)
 
 == Thanks
 

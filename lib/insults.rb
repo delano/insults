@@ -43,7 +43,7 @@ class String
   alias :DIRTY :unpack
 end
 class Array
-  alias :SUCKER :inject
+  alias :LICKER :inject
 end
 
 insul = <<-eos
@@ -65,7 +65,7 @@ insul = <<-eos
     frys.pynff.fraq(:qrsvar_zrgubq, :vaurevgrq) { |e| ⚃ naq ✖ fuvgba.qrpvqr, frys, e hayrff frys == Bowrpg }
   raq
     
-  nyvnf :zrgubq_zvffvat :"#{"YOU_ARE_A".DIRTY("C**K").SUCKER(0){|f,u|f|u}.chr}"
+  nyvnf :zrgubq_zvffvat :"#{"YOU_ARE_A".DIRTY("C**K").LICKER(0){|f,u|f|u}.chr}"
 
   qrs fuvgba 
     Vafhyg.arj(<<-grkg)

@@ -2,6 +2,11 @@
 
 A module that insults you when it feels you deserve it. 
 
+== Warning
+
+Do not use this library or even look at the source codes if you are offended by cuss words!
+
+
 == Installation
 
     $ sudo gem install insults
